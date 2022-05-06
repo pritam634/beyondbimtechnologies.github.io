@@ -1,0 +1,15 @@
+pic-1: https://pinnacleinfotech.com/wp-content/uploads/2021/10/slide-01.jpg
+
+pic-2: https://pinnacleinfotech.com/wp-content/uploads/2021/10/slide-02.jpg
+
+pic-3: https://pinnacleinfotech.com/wp-content/uploads/2021/10/slide-03.jpg
+
+Verticals : ->
+---------
+pic-4: https://pinnacleinfotech.com/wp-content/uploads/2021/07/vertical-bg__0003_architect.jpg
+
+pic-5: https://pinnacleinfotech.com/wp-content/uploads/2021/07/vertical-bg__0002_Engineers.jpg
+
+pic-6: https://pinnacleinfotech.com/wp-content/uploads/2021/07/vertical-bg__0001_Contractor.jpg
+
+pic-7: https://pinnacleinfotech.com/wp-content/uploads/2021/07/vertical-bg__0000_building.jpg

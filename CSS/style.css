@@ -1,0 +1,71 @@
+/* 
+======================================================
+Global Access
+======================================================
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+:root {
+    --color1: #0C0C0C;
+    --color2: #FFFFFF;
+    --font1: 'Open Sans', sans-serif;
+    --font2: 'Montserrat', sans-serif;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+nav.navbar .logo {
+    height: 90px;
+    width: 100px;
+}
+
+.navbar .logo img {
+    height: 100%;
+    width: 100%;
+}
+
+nav.navbar .nav-list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav.navbar .nav-list li a {
+    font-size: 1.6rem;
+    margin-right: 60px;
+    font-family: var(--font2);
+    color: #0C0C0C;
+    font-weight: 560;
+} 
+nav.navbar .nav-list li a i {
+    margin-left: 12px;
+}
+nav.navbar .menu {
+    transition: all .4s;
+    position: relative;
+    transform: translateY(-5px);
+}
+nav.navbar .menu a {
+    padding: 10px 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.2);
+    font-size: 1.7rem;
+    color: #0C0C0C;
+    font-family: var(--font2);
+}
+nav.navbar .menu.menu:hover {
+    transform: translateY(-15px);
+}

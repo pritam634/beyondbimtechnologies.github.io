@@ -19,10 +19,15 @@ html {
 :root {
     --color1: #0C0C0C;
     --color2: #FFFFFF;
+    --color3: #fcfcfc70;
     --font1: 'Open Sans', sans-serif;
     --font2: 'Montserrat', sans-serif;
 }
-
+/* 
+======================================================
+Navbar
+======================================================
+*/
 nav.navbar {
     display: flex;
     justify-content: space-between;
@@ -30,8 +35,8 @@ nav.navbar {
     padding: 0 20px;
 }
 nav.navbar .logo {
-    height: 90px;
-    width: 100px;
+    height: 70px;
+    width: 80px;
 }
 
 .navbar .logo img {
@@ -42,7 +47,12 @@ nav.navbar .logo {
 nav.navbar .nav-list {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    height: 100%;
     list-style: none;
+}
+nav.navbar .nav-list li {
+    margin-top: 10px;
 }
 nav.navbar .nav-list li a {
     font-size: 1.6rem;
@@ -50,6 +60,7 @@ nav.navbar .nav-list li a {
     font-family: var(--font2);
     color: #0C0C0C;
     font-weight: 560;
+    text-decoration: none !important;
 } 
 nav.navbar .nav-list li a i {
     margin-left: 12px;
@@ -68,4 +79,58 @@ nav.navbar .menu a {
 }
 nav.navbar .menu.menu:hover {
     transform: translateY(-15px);
+}
+
+.carousel-item {
+    height: 90vh;
+    min-height: 300px;
+    background: no-repeat scroll center scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.carousel-item::before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.6;
+}
+
+.carousel-caption {
+    bottom: 140px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.carousel-caption h1 {
+    font-size:  32px;
+    letter-spacing: 1.2px;
+    font-family: var(--font2);
+    font-weight: 400 !important;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.carousel-caption p {
+    font-size: 18px;
+    font-family: var(--font2);
+}
+.carousel-caption .slider-btn {
+    margin-top: 30px;
+}
+.carousel-caption .slider-btn a.btn{
+    padding: 10px 28px;
+    color: #fff;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-family: var(--font2);
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background: var(--color3);
 }

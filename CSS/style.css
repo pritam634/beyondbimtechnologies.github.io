@@ -176,6 +176,30 @@ section#particles-js .about {
     pointer-events: none;
 }
 
+.second_nav {
+    height: 100px;
+}
+
+.second_nav .nav-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.second_nav .nav-2.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    padding: 0 25px;
+}
+
+.second_nav .nav-2.fixed .menu a {
+    background-color: rgba(224, 224, 224, 0.618);
+    border-radius: 5px;
+    padding: 12px 25px;
+}
+
 section#particles-js .about h2 {
     font-family: var(--font1);
     color: rgb(255, 255, 255);
@@ -303,7 +327,85 @@ section.sectors h2 {
     width: 100%;
 }
 
-video {
-    position: absolute;
-    border: 20px solid red;
+
+
+/* 
+============================================================
+Footer Section
+============================================================
+*/
+footer {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-top: 1px solid #111;
+}
+
+footer .heading {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+footer .heading .logo {
+    height: 100px;
+    width: 100px;
+}
+
+footer .heading p {
+    padding-right: 20px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+footer .right_bar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .right_bar ul h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer .right_bar ul li {
+    list-style-type: none;
+    margin-top: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+footer .right_bar ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.copyright_and_links {
+    display: flex;
+    padding: 100px 100px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+}
+
+.copyright_and_links span {
+    font-size: 14px;
+    color: #636363;
+}
+
+.copyright_and_links .social_links a{
+    font-size: 15px;
+    margin-right: 17px;
+    color: #636363;
+    text-decoration: none;
+}
+
+.copyright_and_links .social_links a i {
+    pointer-events: none;
+}
+
+.copyright_and_links .social_links a:hover {
+    color: #E6E6E6;
 }

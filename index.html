@@ -25,7 +25,7 @@
 <body>
     <nav class="navbar">
         <div class="logo">
-            <img src="./images/main_logo.png" alt="Image doesn't load" />
+            <img src="./images/FINAL LOGO.pdf (Logo).png" alt="Image doesn't load" />
         </div>
         <ul class="nav-list">
             <li><a href="#">About</a></li>
@@ -97,12 +97,14 @@
             </button>
         </div>
     </section>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="./images/main_logo.png" alt="Image doesn't load" />
-        </div>
-        <div class="menu">
-            <a href="#"><i class="fa-solid fa-bars"></i> Menu</a>
+    <nav class="navbar second_nav">
+        <div class="nav-2">
+            <div class="logo">
+                <img src="./images/FINAL LOGO.pdf (Logo).png" alt="Image doesn't load" />
+            </div>
+            <div class="menu">
+                <a href="#"><i class="fa-solid fa-bars"></i> Menu</a>
+            </div>
         </div>
     </nav>
 
@@ -186,14 +188,57 @@
             </div>
         </div>
     </section>
-    <section class="video">
-        <iframe src="https://www.youtube.com/embed/p33RUsm-tHk?controls=0&rel=0&playsinline=1&enablejsapi=1&origin=https%3A%2F%2Fwww.sketsstudio.com&widgetid=1" frameborder="0" allowfullscreen="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;"></iframe>
-    </section>
+    
+    <footer>
+        <div class="heading">
+            <div class="logo">
+                <img src="./images/FINAL LOGO.pdf (Logo).png" alt="#####" height="100%">
+            </div>
+            <p>Established in 2005, BEYOND BYM is a world leader in Design Documentation & BIM consultancy.</p>
+        </div>
 
-    <script src="./JS/app.js"></script>
+        <div class="right_bar">
+            <ul>
+                <h3>Studio</h3>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">SKETS hope centre</a></li>
+            </ul>
+            <ul>
+                <h3>Services</h3>
+                <li><a href="#">BIM</a></li>
+                <li><a href="#">Interior design</a></li>
+                <li><a href="#">Architecture</a></li>
+                <li><a href="#">3D visualization</a></li>
+                <li><a href="#">Engineering</a></li>
+            </ul>
+            <ul>
+                <h3>Contact With BEYOND BYM</h3>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Careers</a></li>
+            </ul>
+        </div>
+    </footer>
+    <div class="copyright_and_links">
+        <span>&copy; BEYOND BYM Pvt. Ltd. 2022</span>
+        <div class="social_links">
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </div>
+    <!-- <script src="./JS/app.js"></script> -->
     <script src="./JS/particle-js.js"></script>
     <script src="./JS/app2.js"></script>
     <script src="./JS/bootstrap.min.js"></script>
+    <script>
+        window.addEventListener('scroll', () => {
+            var nav_2 = document.querySelector('.nav-2');
+            nav_2.classList.toggle("fixed", window.scrollY > 610);
+        });
+    </script>
 </body>
 
 </html>
